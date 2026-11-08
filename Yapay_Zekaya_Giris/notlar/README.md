@@ -52,13 +52,17 @@ Yapay_Zekaya_Giris/
 │   ├── convolution_stride_padding_matrix.png
 │   ├── pooling_max_vs_average_flatten.png
 │   └── cnn_full_architecture_lenet5.png
-├── tools/                                            # Şemaları üreten Python çizim araçları
+├── tools/                                            # Çizim ve soru bankası üretim scriptleri
 │   ├── plot_ai_hierarchy_and_programming.py
 │   ├── plot_ml_workflow_and_metrics.py
 │   ├── plot_gradient_and_perceptron.py
 │   ├── plot_convolution_and_pooling.py
-│   └── plot_cnn_architecture.py
-├── Sinav_Sorulari_ve_Cozumleri.md                    # 50+ soruluk interaktif toggle soru bankası
+│   ├── plot_cnn_architecture.py
+│   ├── generate_question_bank.py
+│   ├── qbank_sections_1_to_3.py
+│   ├── qbank_sections_4_to_6.py
+│   └── qbank_sections_7_to_10.py
+├── Sinav_Sorulari_ve_Cozumleri.md                    # 200 soruluk kapsamlı interaktif toggle soru bankası
 ├── Yapay Zekaya Giriş 401a7e1cf07380b898c0dabb749c4775.md # Ham ders transkripti
 └── Yapay_Zekaya_Giris_Haftalik/                      # Orijinal PPTX ve Colab defterleri
     ├── slaytlar/ (Hafta01 - Hafta14)
@@ -71,5 +75,5 @@ Yapay_Zekaya_Giris/
 
 1. **Modülleri Sırayla Okuyun:** Her modülün başındaki **🚨 HOCANIN VİZE SINAVI UYARILARI** kutucuklarını mutlaka ezberleyin.
 2. **Görselleri İnceleyin:** `assets/` klasöründeki şemaları gözünüzde canlandırın (Özellikle 2D evrişim matrisi, Max/Avg pooling ve CNN mimari akışı).
-3. **İnteraktif Soru Bankasını Çözün:** [Sinav_Sorulari_ve_Cozumleri.md](file:///home/antigravity/yusufsanverdi/Ders_Notlari/Yapay_Zekaya_Giris/Sinav_Sorulari_ve_Cozumleri.md) dosyasındaki soruları önce cevabı açmadan bir kağıda elle çözün, ardından `<details>` toggle'ına tıklayarak cevabınızı karşılaştırın.
-4. **Deneme Sınavını Çözün:** Dokümanın 4. bölümündeki 20 soruluk deneme sınavını 30 dakikalık süre tutarak gerçek sınav simülasyonu şeklinde tamamlayın.
+3. **İnteraktif Soru Bankasını Çözün:** [Sinav_Sorulari_ve_Cozumleri.md](file:///home/antigravity/yusufsanverdi/Ders_Notlari/Yapay_Zekaya_Giris/Sinav_Sorulari_ve_Cozumleri.md) dosyasındaki 200 soruyu önce cevabı açmadan bir kağıda elle çözün, ardından `<details>` toggle'ına tıklayarak cevabınızı karşılaştırın.
+4. **Deneme Sınavını Çözün:** Dokümanın 10. bölümündeki 20 soruluk deneme sınavını 30 dakikalık süre tutarak gerçek sınav simülasyonu şeklinde tamamlayın.
