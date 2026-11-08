@@ -21,10 +21,10 @@ Bu klasör, ders transkriptinin tamamı taranarak hazırlanmış kapsamlı ders 
 
 - **[Sinava_Hazirlik_Sorulari_ve_Cozumleri.md](./Sinava_Hazirlik_Sorulari_ve_Cozumleri.md)**  
   Tüm sorular **açılır-kapanır (toggle heading / `<details>`)** yapısında hazırlanmıştır. Çalışırken önce kendi cevabınızı tahmin edebilir, ardından açarak hocanın aradığı ilmi yanıtı, yasaklı ifadeleri ve öğretici analizi görebilirsiniz.
-  - **Bölüm 1:** Kesin gelecek boşluk doldurma ve anahtar tanım soruları (1-10)
-  - **Bölüm 2:** Hocanın "ezberleyen geçemez, yeni örnek üretme" soruları (11-15)
-  - **Bölüm 3:** Kavram analizi, yasaklı kelimeler ve sınav tuzakları (16-20)
-  - **Bölüm 4:** Klasik muhakeme ve felsefi tartışma soruları (21-25)
+  - **Bölüm 1:** Kesin gelecek boşluk doldurma ve anahtar tanım soruları (1 - 15)
+  - **Bölüm 2:** Hocanın "ezberleyen geçemez, yeni örnek üretme" soruları (16 - 25)
+  - **Bölüm 3:** Kavram analizi, yasaklı kelimeler ve sınav tuzakları (26 - 35)
+  - **Bölüm 4:** Klasik muhakeme, bilim tarihi ve felsefi derinlik soruları (36 - 50)
 
 ---
 
