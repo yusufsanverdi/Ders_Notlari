@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 700; fill: #f8fafc; text-anchor: middle; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #94a3b8; text-anchor: middle; }
+      .step-box { rx: 10px; stroke-width: 2px; }
+      .step-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 15px; font-weight: 700; text-anchor: middle; }
+      .step-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #cbd5e1; text-anchor: middle; }
+      .arrow-line { stroke: #38bdf8; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <text x="450" y="45" class="title">Thomas Kuhn: Paradigma Kayması ve Bilimsel Devrimler</text>
+  <text x="450" y="70" class="subtitle">Bilim Doğrusal ve Birikimsel Değil; Krizler ve Devrimsel Sıçramalarla İlerler</text>
+
+  <!-- 1. Aşama: Olağan Bilim -->
+  <rect x="330" y="105" width="240" height="70" class="step-box" style="fill:#1e293b; stroke:#10b981;"/>
+  <text x="450" y="132" class="step-title" style="fill:#34d399;">1. OLAĞAN BİLİM</text>
+  <text x="450" y="152" class="step-desc">Hâkim Paradigma Sorunları Çözer</text>
+  <text x="450" y="167" class="step-desc">(Örn: Batlamyus Yer-Merkezli Model)</text>
+
+  <!-- Ok 1 -> 2 -->
+  <path d="M 570 140 Q 680 140 700 200" class="arrow-line"/>
+
+  <!-- 2. Aşama: Anomaliler -->
+  <rect x="620" y="210" width="230" height="70" class="step-box" style="fill:#1e293b; stroke:#f59e0b;"/>
+  <text x="735" y="237" class="step-title" style="fill:#fbbf24;">2. ANOMALİLER</text>
+  <text x="735" y="257" class="step-desc">Modelin Açıklayamadığı Olgular Artar</text>
+  <text x="735" y="272" class="step-desc">(Gezegenlerin Geri Hareketi vb.)</text>
+
+  <!-- Ok 2 -> 3 -->
+  <path d="M 735 280 L 735 340 L 600 375" class="arrow-line"/>
+
+  <!-- 3. Aşama: Bunalım / Kriz -->
+  <rect x="360" y="360" width="240" height="75" class="step-box" style="fill:#1e293b; stroke:#ef4444;"/>
+  <text x="480" y="387" class="step-title" style="fill:#f87171;">3. KRİZ / BUNALIM</text>
+  <text x="480" y="407" class="step-desc">Güven Sarsılır; Çözümler Yetmez</text>
+  <text x="480" y="422" class="step-desc">Eski Paradigma İflas Eder</text>
+
+  <!-- Ok 3 -> 4 -->
+  <path d="M 360 400 L 220 400 L 170 330" class="arrow-line"/>
+
+  <!-- 4. Aşama: Bilimsel Devrim -->
+  <rect x="50" y="250" width="240" height="75" class="step-box" style="fill:#1e293b; stroke:#ec4899;"/>
+  <text x="170" y="277" class="step-title" style="fill:#f472b6;">4. BİLİMSEL DEVRİM</text>
+  <text x="170" y="297" class="step-desc">Yeni Bir Bakış Açısı / Model Doğar</text>
+  <text x="170" y="312" class="step-desc">(Kopernik &amp; Bîrûnî: Güneş-Merkezli)</text>
+
+  <!-- Ok 4 -> 1 -->
+  <path d="M 170 250 L 170 170 L 320 145" class="arrow-line"/>
+
+  <!-- Merkez Özet -->
+  <circle cx="450" cy="265" r="50" style="fill:#0369a1; stroke:#38bdf8; stroke-width:2px;"/>
+  <text x="450" y="260" class="step-title" style="fill:#ffffff; font-size:13px;">PARADİGMA</text>
+  <text x="450" y="278" class="step-title" style="fill:#ffffff; font-size:13px;">KAYMASI</text>
+</svg>

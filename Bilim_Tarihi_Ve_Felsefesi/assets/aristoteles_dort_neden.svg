@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 700; fill: #f8fafc; text-anchor: middle; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #94a3b8; text-anchor: middle; }
+      .card { rx: 12px; stroke-width: 2px; }
+      .c-maddi { fill: #1e293b; stroke: #f59e0b; }
+      .c-fail { fill: #1e293b; stroke: #3b82f6; }
+      .c-sekli { fill: #1e293b; stroke: #10b981; }
+      .c-gaye { fill: #1e293b; stroke: #ec4899; }
+      .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 17px; font-weight: 700; text-anchor: middle; }
+      .card-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #94a3b8; text-anchor: middle; }
+      .item-bold { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #ffffff; }
+      .item-val { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #cbd5e1; }
+      .center-circle { fill: #0284c7; stroke: #38bdf8; stroke-width: 3px; }
+      .center-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <text x="450" y="45" class="title">Aristoteles: Varlığın Dört Nedeni (Metafizik)</text>
+  <text x="450" y="70" class="subtitle">Herhangi Bir Varlığın Meydana Gelmesi İçin Zorunlu 4 İlke</text>
+
+  <!-- Central Target Object -->
+  <circle cx="450" cy="270" r="65" class="center-circle"/>
+  <text x="450" y="265" class="center-text">VARLIK</text>
+  <text x="450" y="285" class="center-text">(Masa / Heykel)</text>
+
+  <!-- 1. Maddî Neden (Sol Üst) -->
+  <rect x="60" y="100" width="300" height="130" class="card c-maddi"/>
+  <text x="210" y="130" class="card-title" style="fill:#f59e0b;">1. MADDÎ NEDEN (Causa Materialis)</text>
+  <text x="210" y="150" class="card-sub">Nesnenin Hangi Maddeden Yapıldığı</text>
+  <text x="80" y="180" class="item-bold">• Heykelde:</text><text x="175" y="180" class="item-val">Ahşap, Mermer, Tunç</text>
+  <text x="80" y="205" class="item-bold">• Telefonda:</text><text x="175" y="205" class="item-val">Silikon, Bakır, Plastik, Lityum</text>
+
+  <!-- 2. Fail Neden (Sağ Üst) -->
+  <rect x="540" y="100" width="300" height="130" class="card c-fail"/>
+  <text x="690" y="130" class="card-title" style="fill:#38bdf8;">2. FAİL NEDEN (Causa Efficiens)</text>
+  <text x="690" y="150" class="card-sub">Maddeyi Şekillendiren Güç / Usta</text>
+  <text x="560" y="180" class="item-bold">• Heykelde:</text><text x="655" y="180" class="item-val">Heykeltıraşın İradesi ve Eli</text>
+  <text x="560" y="205" class="item-bold">• Telefonda:</text><text x="655" y="205" class="item-val">Mühendis, Fabrika, Tasarımcı</text>
+
+  <!-- 3. Biçimsel Neden (Sol Alt) -->
+  <rect x="60" y="310" width="300" height="130" class="card c-sekli"/>
+  <text x="210" y="340" class="card-title" style="fill:#10b981;">3. BİÇİMSEL NEDEN (Causa Formalis)</text>
+  <text x="210" y="360" class="card-sub">Nesnenin Aldığı Form ve Tasarım</text>
+  <text x="80" y="390" class="item-bold">• Heykelde:</text><text x="175" y="390" class="item-val">İnsan Silüeti, Yüz Hissiyatı</text>
+  <text x="80" y="415" class="item-bold">• Telefonda:</text><text x="175" y="415" class="item-val">Ekran, Kasa Geometrisi, Boyut</text>
+
+  <!-- 4. Gayevî Neden (Sağ Alt) -->
+  <rect x="540" y="310" width="300" height="130" class="card c-gaye"/>
+  <text x="690" y="340" class="card-title" style="fill:#ec4899;">4. GAYEVÎ NEDEN (Causa Finalis)</text>
+  <text x="690" y="360" class="card-sub">Varlığın Yapılış Amacı (Teleoloji)</text>
+  <text x="560" y="390" class="item-bold">• Heykelde:</text><text x="655" y="390" class="item-val">Sanat, Anma, Ticaret</text>
+  <text x="560" y="415" class="item-bold">• Telefonda:</text><text x="655" y="415" class="item-val">Haberleşme, Hesaplama, Ticaret</text>
+
+  <!-- Connection Lines -->
+  <line x1="360" y1="180" x2="410" y2="230" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="540" y1="180" x2="490" y2="230" stroke="#38bdf8" stroke-width="2"/>
+  <line x1="360" y1="360" x2="410" y2="310" stroke="#10b981" stroke-width="2"/>
+  <line x1="540" y1="360" x2="490" y2="310" stroke="#ec4899" stroke-width="2"/>
+</svg>

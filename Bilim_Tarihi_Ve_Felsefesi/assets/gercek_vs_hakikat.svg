@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0b1329; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 700; fill: #f8fafc; text-anchor: middle; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #94a3b8; text-anchor: middle; }
+      .col-box { rx: 14px; stroke-width: 2px; }
+      .col-gercek { fill: #1e1b4b; stroke: #6366f1; }
+      .col-hakikat { fill: #064e3b; stroke: #10b981; }
+      .h-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 20px; font-weight: 700; text-anchor: middle; }
+      .h-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #cbd5e1; text-anchor: middle; }
+      .row-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #facc15; }
+      .row-content { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #e2e8f0; }
+      .quote-box { rx: 8px; fill: #1e293b; stroke: #475569; stroke-width: 1px; }
+      .quote-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #f1f5f9; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <text x="450" y="40" class="title">Epistemolojik Karşılaştırma: Gerçek vs. Hakikat</text>
+  <text x="450" y="65" class="subtitle">"Biz Hakikatçiyiz, Gerçekçi Değiliz — Ateist Gerçekliğe, İslam Hakikate Bakar"</text>
+
+  <!-- Left: GERÇEK -->
+  <rect x="50" y="90" width="370" height="350" class="col-box col-gercek"/>
+  <text x="235" y="125" class="h-title" style="fill:#a5b4fc;">GERÇEK (Görünüş / Zahir)</text>
+  <text x="235" y="148" class="h-sub">Beş Duyu Organıyla Algılanan İllüzyon</text>
+
+  <text x="75" y="185" class="row-label">Kaynak:</text>
+  <text x="145" y="185" class="row-content">Duyular (Göz, Kulak, Deri...)</text>
+
+  <text x="75" y="215" class="row-label">Oda Örneği:</text>
+  <text x="75" y="235" class="row-content">Duvarlar, masa ve sıralar hareketsiz,</text>
+  <text x="75" y="255" class="row-content">sabit duruyor gibi görünür.</text>
+
+  <text x="75" y="285" class="row-label">Güneş Örneği:</text>
+  <text x="75" y="305" class="row-content">Güneş gökte dönüyor, sabah doğup</text>
+  <text x="75" y="325" class="row-content">akşam batıyor gibi algılanır.</text>
+
+  <rect x="70" y="345" width="330" height="75" class="quote-box"/>
+  <text x="85" y="370" class="quote-text">Mahkeme Örneği: "Gördüğün gerçeği söyle,</text>
+  <text x="85" y="390" class="quote-text">hakikate jüri ve hakim karar verir."</text>
+  <text x="85" y="410" class="quote-text">Göz parmağı Güneş'ten büyük görebilir.</text>
+
+  <!-- Right: HAKİKAT -->
+  <rect x="480" y="90" width="370" height="350" class="col-box col-hakikat"/>
+  <text x="665" y="125" class="h-title" style="fill:#34d399;">HAKİKAT (Asıl / Mahiyet)</text>
+  <text x="665" y="148" class="h-sub">Akıl, Mantık ve Bilimle İdrak Edilen Asıl</text>
+
+  <text x="505" y="185" class="row-label">Kaynak:</text>
+  <text x="575" y="185" class="row-content">Akıl, Burhan ve Delil</text>
+
+  <text x="505" y="215" class="row-label">Oda Örneği:</text>
+  <text x="505" y="235" class="row-content">Dünya saniyede 30.5 km hızla top</text>
+  <text x="505" y="255" class="row-content">güllesinden katbekat hızlı dönmektedir.</text>
+
+  <text x="505" y="285" class="row-label">Güneş Örneği:</text>
+  <text x="505" y="305" class="row-content">Güneş merkezdedir; Dünya kendi ekseninde</text>
+  <text x="505" y="325" class="row-content">ve Güneş çevresinde dönmektedir.</text>
+
+  <rect x="500" y="345" width="330" height="75" class="quote-box"/>
+  <text x="515" y="370" class="quote-text">Kur'an Örneği (Neml Suresi, 88):</text>
+  <text x="515" y="390" class="quote-text">"Sen dağları yerinde sabit görürsün (gerçek),</text>
+  <text x="515" y="410" class="quote-text">oysa onlar bulutlar gibi geçmektedir (hakikat)."</text>
+</svg>

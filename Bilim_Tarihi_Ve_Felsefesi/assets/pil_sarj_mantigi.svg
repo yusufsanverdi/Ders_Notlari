@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 700; fill: #f8fafc; text-anchor: middle; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #94a3b8; text-anchor: middle; }
+      .panel { rx: 12px; stroke-width: 2px; }
+      .panel-sarj { fill: #1e293b; stroke: #38bdf8; }
+      .panel-desarj { fill: #1e293b; stroke: #f43f5e; }
+      .p-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; font-weight: 700; text-anchor: middle; }
+      .plate-pos { fill: #b91c1c; rx: 6px; }
+      .plate-neg { fill: #1d4ed8; rx: 6px; }
+      .plate-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+      .desc-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+      .electron { fill: #facc15; stroke: #ca8a04; stroke-width: 1px; }
+      .e-label { font-family: monospace; font-size: 10px; font-weight: 700; fill: #000; text-anchor: middle; }
+      .arrow { stroke: #38bdf8; stroke-width: 3; fill: none; marker-end: url(#arrow-cyan); }
+      .arrow-red { stroke: #f43f5e; stroke-width: 3; fill: none; marker-end: url(#arrow-rose); }
+    </style>
+    <marker id="arrow-cyan" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrow-rose" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f43f5e"/>
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <text x="450" y="40" class="title">Şarj Yanılgısı: Piller Asla "Dolmaz" veya "Boşalmaz"</text>
+  <text x="450" y="65" class="subtitle">Elektronlar Harcanmaz; Sadece İki Plaka Arasında Dengesizlik (Potansiyel Fark) Yaratılır</text>
+
+  <!-- Left: ŞARJ DURUMU -->
+  <rect x="50" y="90" width="370" height="350" class="panel panel-sarj"/>
+  <text x="235" y="125" class="p-title" style="fill:#38bdf8;">1. ŞARJ EDİLİRKEN (Dış Güç Uygulanır)</text>
+  <text x="75" y="150" class="desc-text">Şarj cihazı elektronları artı plakadan zorla çeker,</text>
+  <text x="75" y="168" class="desc-text">eksi plakaya yığarak yüksek potansiyel fark üretir.</text>
+
+  <!-- Plaka + (Fakir) -->
+  <rect x="90" y="195" width="70" height="150" class="plate-pos"/>
+  <text x="125" y="225" class="plate-label">+</text>
+  <text x="125" y="245" class="plate-label">Kutup</text>
+  <text x="125" y="275" class="desc-text" style="text-anchor:middle;">Elektron</text>
+  <text x="125" y="295" class="desc-text" style="text-anchor:middle;">Fakiri</text>
+
+  <!-- Flow Arrow -->
+  <path d="M 175 240 Q 235 200 295 240" class="arrow"/>
+  <text x="235" y="215" class="desc-text" style="fill:#38bdf8; text-anchor:middle; font-weight:700;">Dış Enerji İle Zorlama</text>
+
+  <!-- Plaka - (Zengin) -->
+  <rect x="310" y="195" width="70" height="150" class="plate-neg"/>
+  <text x="345" y="225" class="plate-label">-</text>
+  <text x="345" y="245" class="plate-label">Kutup</text>
+  <text x="345" y="275" class="desc-text" style="text-anchor:middle;">Elektron</text>
+  <text x="345" y="295" class="desc-text" style="text-anchor:middle;">Yığını</text>
+
+  <text x="75" y="380" class="desc-text" style="font-weight:700; fill:#fef08a;">• Pilin ağırlığı 1 pikogram bile DEĞİŞMEZ!</text>
+  <text x="75" y="405" class="desc-text">• Şarj = Bileşik kapta suyu pistonla tek tarafa yığmaktır.</text>
+
+  <!-- Right: DEŞARJ (KULLANIM) DURUMU -->
+  <rect x="480" y="90" width="370" height="350" class="panel panel-desarj"/>
+  <text x="665" y="125" class="p-title" style="fill:#f43f5e;">2. DEŞARJ OLURKEN (Cihaz Çalışırken)</text>
+  <text x="505" y="150" class="desc-text">Telefonu açtığınızda vanalar açılır; elektronlar</text>
+  <text x="505" y="168" class="desc-text">eksi kutuptan artı kutba akarken lambayı/çipi çalıştırır.</text>
+
+  <!-- Plaka + -->
+  <rect x="520" y="195" width="70" height="150" class="plate-pos"/>
+  <text x="555" y="225" class="plate-label">+</text>
+  <text x="555" y="245" class="plate-label">Kutup</text>
+  <text x="555" y="280" class="desc-text" style="text-anchor:middle;">Elektronlar</text>
+  <text x="555" y="300" class="desc-text" style="text-anchor:middle;">Buraya Döner</text>
+
+  <!-- Flow Arrow Reverse -->
+  <path d="M 725 240 Q 665 200 605 240" class="arrow-red"/>
+  <text x="665" y="215" class="desc-text" style="fill:#f43f5e; text-anchor:middle; font-weight:700;">Yüke İş Yaptırarak Akış</text>
+
+  <!-- Plaka - -->
+  <rect x="740" y="195" width="70" height="150" class="plate-neg"/>
+  <text x="775" y="225" class="plate-label">-</text>
+  <text x="775" y="245" class="plate-label">Kutup</text>
+  <text x="775" y="280" class="desc-text" style="text-anchor:middle;">Elektronlar</text>
+  <text x="775" y="300" class="desc-text" style="text-anchor:middle;">Boşalır</text>
+
+  <text x="505" y="380" class="desc-text" style="font-weight:700; fill:#fef08a;">• "Pil Bitti" = İki kutuptaki elektronlar eşitlendi demektir.</text>
+  <text x="505" y="405" class="desc-text">• Fatura elektrona değil, elektronu taşıma işine ödenir.</text>
+</svg>
